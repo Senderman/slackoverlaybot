@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      uri: ${database}
+      database: slackoverlay
+
+logging:
+  level:
+    root: ERROR
+
+token: ${token}
+username: ${username}
